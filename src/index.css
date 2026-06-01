@@ -10,3 +10,12 @@ body {
   background: #FFF8EA;
   color: #1F2933;
 }
+@keyframes loading {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(300%);
+  }
+}
