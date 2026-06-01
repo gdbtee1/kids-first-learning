@@ -1,4 +1,5 @@
 import { Award, Phone, Star, Users, ArrowRight } from "lucide-react";
+import kidsImage from "../assets/kids.jpeg";
 
 export default function Hero() {
   return (
@@ -84,8 +85,9 @@ export default function Hero() {
 
             <div className="overflow-hidden rounded-[2.5rem] bg-white p-3 shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1200&auto=format&fit=crop"
-                alt="Child learning and reading"
+                src={kidsImage}
+                alt="Children learning and reading"
+                loading="eager"
                 className="h-[420px] w-full rounded-[2rem] object-cover sm:h-[500px] lg:h-[620px]"
               />
             </div>
