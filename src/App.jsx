@@ -6,11 +6,12 @@ import Curriculum from "./components/Curriculum";
 import Contact from "./components/Contact";
 import FinalCTA from "./components/FinalCTA";
 import MobileCallButton from "./components/MobileCallButton";
-
+import BrandBanner from "./components/BrandBanner";
 export default function App() {
   return (
     <>
       <main className="bg-[#FFF8EA] text-[#1F2933]">
+       <BrandBanner />
         <Hero />
         <TrustBar />
         <Services />
